@@ -115,6 +115,14 @@ public class Game
                 goRoom(command);
                 break;
 
+            case LOOK:
+                look();
+                break;
+                
+            case EAT:
+                eat();
+                break;
+            
             case QUIT:
                 wantToQuit = quit(command);
                 break;
@@ -178,5 +186,21 @@ public class Game
         else {
             return true;  // signal that we want to quit
         }
+    }
+    
+    /**
+     * "Look" was entered. Return the current room's long description
+     */
+    private void look()
+    {
+        System.out.println(currentRoom.getLongDescription());
+    }
+    
+    /**
+     * "Eat" was entered. Print string.
+     */
+    private void eat()
+    {
+        System.out.println("You have eaten now and you are not hungry any more.");
     }
 }
