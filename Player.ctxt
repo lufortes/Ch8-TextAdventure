@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=room\ name
+comment1.target=Player(Room,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Player\n
+comment2.params=
+comment2.target=Room\ getCurrentRoom()
+comment2.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\n
+comment3.params=room
+comment3.target=void\ setCurrentRoom(Room)
+comment3.text=\n\ \ set\ currentRoom\n
+comment4.params=item
+comment4.target=Item\ getItem(java.lang.String)
+comment5.params=name\ item
+comment5.target=void\ addItem(java.lang.String,\ Item)
+comment5.text=\ \n\ \ add\ item\n
+comment6.params=name
+comment6.target=boolean\ removeItem(java.lang.String)
+comment7.params=
+comment7.target=void\ items()
+numComments=8
